@@ -265,6 +265,10 @@ nav{
     cursor: pointer;
 }
 
+.mob_imges{
+    /* visibility: hidden; */
+    display: none;
+}
 
 
 /* ================= Media Query ================= */
@@ -314,6 +318,7 @@ nav{
     .bg_img{
         width: 100%;
         max-width: 450px;
+        display: none;
     }
 
     .i_sale{
@@ -323,6 +328,11 @@ nav{
     .small_images{
         width: 100%;
         max-width: 450px;
+        display: none;
+    }
+
+    .mob_imges{
+        display: flex;
     }
 
     .body_des{
