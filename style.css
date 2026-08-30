@@ -355,8 +355,11 @@ nav{
     .sale{
         transform: translate(190%,-170%);
     }
-
-    
+    .i_sale{
+        transform: translate(180%,2100%);
+        width: 50px;
+        /* height: 0px; */
+    }
 
     .add{
         width: 100% !important;
